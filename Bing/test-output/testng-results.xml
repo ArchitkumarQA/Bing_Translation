@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6847" started-at="2018-06-27T10:35:02Z" finished-at="2018-06-27T10:35:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6847" started-at="2018-06-27T10:35:02Z" finished-at="2018-06-27T10:35:09Z">
+      <class name="com.qainfotech.Bing.AppTest">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.qainfotech.Bing.AppTest@27efef64]" name="setDriver" is-config="true" duration-ms="5077" started-at="2018-06-27T10:35:02Z" finished-at="2018-06-27T10:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="select_Language_1()[pri:0, instance:com.qainfotech.Bing.AppTest@27efef64]" name="select_Language_1" duration-ms="126" started-at="2018-06-27T10:35:07Z" finished-at="2018-06-27T10:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Language_1 -->
+        <test-method status="PASS" signature="select_Language_2()[pri:1, instance:com.qainfotech.Bing.AppTest@27efef64]" name="select_Language_2" duration-ms="79" started-at="2018-06-27T10:35:07Z" finished-at="2018-06-27T10:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_Language_2 -->
+        <test-method status="PASS" signature="Input_text()[pri:2, instance:com.qainfotech.Bing.AppTest@27efef64]" name="Input_text" duration-ms="58" started-at="2018-06-27T10:35:07Z" finished-at="2018-06-27T10:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Input_text -->
+        <test-method status="PASS" signature="Translated_text()[pri:3, instance:com.qainfotech.Bing.AppTest@27efef64]" name="Translated_text" duration-ms="1479" started-at="2018-06-27T10:35:07Z" finished-at="2018-06-27T10:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Translated_text -->
+      </class> <!-- com.qainfotech.Bing.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
