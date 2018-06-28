@@ -32,7 +32,7 @@ public class AppTest
     @Test(priority=3)
     public void Translated_text()
     {
-    	Assert.assertFalse(app.output_Text());
+    	Assert.assertTrue(app.output_Text());
     }
 }
 
