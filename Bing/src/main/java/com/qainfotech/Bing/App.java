@@ -38,8 +38,12 @@ public class App
 	 
 	 public boolean output_Text()
 	 {
-		String str = driver.findElement(By.id("t_tv")).getText();
-		if (str.equals("salut"))
+		WebElement web = driver.findElement(By.id("t_tv"));
+			String str =	web.getAttribute("value");;
+		
+		System.out.println(str);
+	
+		if (str.equals("Salut"))
 		condition=true;
 			return condition;
 		
